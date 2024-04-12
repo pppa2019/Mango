@@ -57,3 +57,15 @@ output_path= # set your inference result path here
 evaluate_functional_correctness ${output_path}.jsonl --problem_file=testsets/new_humaneval_revised.jsonl 
 python result_statistic.py --path ${output_path}.jsonl_results.jsonl
 ```
+# Citation
+Please kindly cite our work if you find the paper or code helpful.
+```
+@misc{chen2024comments,
+      title={Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective}, 
+      author={Yijie Chen and Yijin Liu and Fandong Meng and Yufeng Chen and Jinan Xu and Jie Zhou},
+      year={2024},
+      eprint={2404.07549},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
