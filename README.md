@@ -1,5 +1,5 @@
 # Mango
-The code and data for paper "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective".
+The code and data for paper "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective". 
 
 ## Introduction
 Code generation aims to understand the problem description and generate corresponding code snippets, where existing works generally decompose such complex tasks into intermediate steps by prompting strategies, such as Chain-of-Thought and its variants. While these studies have achieved some success, their effectiveness is highly dependent on the capabilities of advanced Large Language Models (LLMs) such as GPT-4, particularly in terms of API calls, which significantly limits their practical applicability.
@@ -7,6 +7,8 @@ Consequently, how to enhance the code generation capabilities of small and mediu
 In this study, we suggest that code comments are the natural logic pivot between natural language and code language and propose using comments to boost the code generation ability of code LLMs.
 
 We propose MANGO (comMents As Natural loGic pivOts), including a comment contrastive training strategy and a corresponding logical comment decoding strategy.
+
+For more details, please refer our [paper on arxiv](https://arxiv.org/abs/2404.07549)
 
 ## Requirements
 ```

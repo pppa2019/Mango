@@ -7,6 +7,7 @@ max_len=2048
 pred_num=10
 num_seqs_per_iter=10
 
+gpu_num=8
 for ((i = 0; i < $gpu_num; i++)); do
   start_index=$((i * 21))
   end_index=$(((i + 1) * 21))
